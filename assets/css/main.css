@@ -45,7 +45,7 @@ html[data-theme=dark] {
   --global-footer-text-color: #1C1C1D;
   --global-footer-link-color: #000000;
   --global-distill-app-color: #e8e8e8;
-  --global-divider-color: #424246;
+  --global-divider-color: #005bbb;
   --global-card-bg-color: #212529;
 }
 html[data-theme=dark] .fa-sun {
