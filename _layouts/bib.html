@@ -24,6 +24,14 @@
             <abbr class="badge">{{entry.abbr}}</abbr>
           {%- endif -%}
         {%- endif -%}
+
+        <div class="teaser">
+        {%- if entry.image -%}
+        {% include figure.html path=entry.image class="img-fluid rounded z-depth-1" zoomable=true %}
+        {%- endif -%}
+        </div>
+
+        
         </div>
 
         <!-- Entry bib key -->
