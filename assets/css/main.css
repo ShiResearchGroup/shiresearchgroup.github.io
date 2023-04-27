@@ -563,6 +563,11 @@ footer.sticky-bottom {
 .publications ol.bibliography li .title {
   font-weight: bolder;
 }
+@media screen and (max-width: 600px) {
+  .publications ol.bibliography li .teaser {
+    display: none;
+  }
+}
 .publications ol.bibliography li .author a {
   border-bottom: 1px dashed var(--global-theme-color);
 }
