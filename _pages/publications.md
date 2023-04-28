@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: Publications by categories in reversed chronological order. 
+description: Double dagger (‡) denotes equal contribution; asterisk (*) denotes corresponding authors.
 years: [2023,2021,2020,2019,2018,2016,2015]
 nav: true
 nav_order: 1
