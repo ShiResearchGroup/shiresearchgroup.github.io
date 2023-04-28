@@ -1,8 +1,8 @@
 ---
 layout: page
-permalink: /software/
+permalink: /code/
 title: Software
-description: This page is listing software and code from our group.
+description: This page is listing research code from our group.
 nav: true
 nav_order: 3
 ---
