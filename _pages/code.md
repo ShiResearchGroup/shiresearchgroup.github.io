@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /code/
-title: Software
+title: Code
 description: This page is listing research code from our group.
 nav: true
 nav_order: 3
