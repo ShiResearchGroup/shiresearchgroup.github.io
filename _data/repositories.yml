@@ -3,10 +3,9 @@ github_users:
   - alshedivat
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - KaihangShi/MMoCa
+  - snurr-group/2D-energy-histogram
+  - KaihangShi/Spherical-Pressure-Tensor
+  - KaihangShi/Cylindrical-Pressure-Tensor  
+  - KaihangShi/Ternary-Phase-Diagram
+  - KaihangShi/IAST
