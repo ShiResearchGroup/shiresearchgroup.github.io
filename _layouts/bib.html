@@ -182,7 +182,7 @@
           {% if site.badges %}
           <div class="badges">
             {%- if site.badges.altmetric_badge %}
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="0" data-badge-type="2" data-badge-popover="right"
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="-1" data-badge-type="2" data-badge-popover="right"
               {% if entry.eprint %}
                 data-arxiv-id="{{ entry.eprint }}"
               {% elsif entry.doi %}
