@@ -4,7 +4,7 @@ permalink: /code/
 title: Code
 description: This page lists research code from our group. 
 nav: true
-nav_order: 3
+nav_order: 4
 ---
 
 {% if site.data.repositories.github_repos %}
