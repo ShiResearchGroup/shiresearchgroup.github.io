@@ -1,9 +1,9 @@
 ---
 layout: page
 permalink: /media/
-title: Media
-nav: true
-nav_order: 2
+title: Journal Cover
+nav: false
+nav_order: 1
 display_categories: [Journal Cover]
 horizontal: false
 ---
