@@ -16,6 +16,8 @@ See [Google Scholar](https://scholar.google.com/citations?user=UCZC5w8AAAAJ&hl=e
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/pub_img/pressure_tensor_perspective.jpg" title="A perspective on the microscopic pressure (stress) tensor: History, current understanding, and future challenges" class="img-fluid rounded z-depth-1" %}
     </div>
+    <div class="col-sm mt-3 mt-md-0">
+    </div>
 </div>
 <!-- _pages/publications.md -->
 <div class="publications">
