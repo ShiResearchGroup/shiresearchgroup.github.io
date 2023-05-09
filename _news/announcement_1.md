@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our group website is alive!
+Our group website is live!
