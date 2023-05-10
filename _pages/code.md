@@ -3,7 +3,7 @@ layout: page
 permalink: /code/
 title: Code
 description: This page lists research code from our group. 
-nav: true
+nav: false
 nav_order: 5
 ---
 
