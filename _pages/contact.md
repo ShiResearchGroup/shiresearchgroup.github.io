@@ -17,4 +17,4 @@ Buffalo, NY 14260-4300 <br><br>
 <br>
 
 {: .text-center}
-<a class="btn btn-outline-primary" href="mailto:kaihangshi0@gmail.com"><b>@ Contact us</b></a><br>
+<a class="btn ub-color-scheme" href="mailto:kaihangshi0@gmail.com"><b>@ Contact us</b></a><br>
