@@ -7,7 +7,7 @@ nav: true
 nav_order: 6
 ---
 
-Department of Chemical and Biological Engineering <br>
+**Department of Chemical and Biological Engineering** <br>
 308 Furnas Hall <br>
 University at Buffalo, North Campus <br>
 Buffalo, NY 14260-4300 <br><br>
