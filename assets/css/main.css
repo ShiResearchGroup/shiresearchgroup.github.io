@@ -189,6 +189,10 @@ blockquote {
   color: var(--global-theme-color);
 }
 
+.ub-color-scheme {
+  color: var(--global-theme-color);
+}
+
 .profile {
   width: 100%;
 }
