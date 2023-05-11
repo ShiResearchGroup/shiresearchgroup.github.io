@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Welcome to the Shi Research Group at <a href='https://www.buffalo.edu/'>University at Buffalo</a>!
+subtitle: Welcome to the Shi Research Group at the <a href='https://www.buffalo.edu/'>University at Buffalo</a>!
 
 profile:
   align: right
