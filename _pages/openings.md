@@ -12,5 +12,5 @@ nav_order: 4
     </div>
 </div>
 <br>
-**Postdoc Positions** <br>
+## **Postdoc Positions** <br>
 We currently have one (1) postdoc positions available in the group. 
