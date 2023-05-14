@@ -9,7 +9,7 @@ nav_order: 1
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/research_overview.jpg" title="Research Overview" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/research_overview.jpg" title="Research Overview" class="img-fluid rounded hover-shadow zoomable=true" %}
     </div>
 </div>
 <br>
@@ -17,8 +17,6 @@ nav_order: 1
 Porosity is ubiquitous, from naturally formed systems (*e.g.*, shale rocks, wood, and human bones) to synthetic materials (*e.g.*, metal-organic frameworks and molecular cages). Nanoporous materials are unique in providing a tailored pore environment and interfaces down to the nanoscale, and they hold great promise in helping to address crucial challenges in energy, healthcare, and sustainability. Specific applications include energy storage, chemical separations, carbon capture, sensing, catalysis, nano-manufacturing, drug delivery, and tissue regeneration. <br>
 
 Quantum and molecular-level modeling and statistical mechanical theories are central in the efforts to achieve an atomic-level understanding of nanoporous systems, in length and time scales that are inaccessible to state-of-the-art experiments. On the other hand, artificial intelligence (AI), provides a data-based solution to reveal important structure-property relationships that are difficult to discover with conventional methods. <br>
-
-The overarching goal of our research group is to better understand the nature of nanoporous adsorbents, and their unique confinement and surface effects on nanophases and reactions, by integrating physics-based and data-based computational methods, with the hope to address major societal problems facing our planet. <br>
 
 At the moment, we have three research directions aimed at pushing the boundaries of discovery, design, and characterization of nanoporous materials and confined systems:<br>
 
