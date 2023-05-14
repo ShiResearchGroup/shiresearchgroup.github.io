@@ -14,8 +14,20 @@ nav_order: 1
 </div>
 <br>
 
-### What are we interested in? <br>
-**We currently have one (1) postdoctoral position available in our group.** Areas of interest include machine learning potential for porous materials, molecular simulation method development for gas adsorption, and machine learning for materials discovery and design for energy storage and chemical separation applications. Interested postdocs should inquire directly at `kaihangshi0@gmail.com` with a CV and a brief statement (3-5 sentences) of your research interests and professional goals. <br><br>
+Porosity is ubiquitous, from naturally formed systems (*e.g.*, shale rocks, wood, and human bones) to synthetic materials (*e.g.*, metal-organic frameworks and molecular cages). Nanoporous materials are unique in providing a tailored pore environment and interfaces down to the nanoscale, and they hold great promise in helping to address crucial challenges in energy, healthcare, and sustainability. Specific applications include energy storage, chemical separations, carbon capture, sensing, catalysis, nano-manufacturing, drug delivery, and tissue regeneration. <br>
 
-### What are we going to do? <br>
-**We are currently recruiting highly self-motivated Ph.D. and Master students to join our group.** Opportunities are broadly in the areas of machine learning for accelerated materials discovery and design, AI-guided theories and tools for experimental materials characterization, and statistical mechanics and simulations for confined fluids and nucleations. The exact projects will vary and should reflect our mutual interests and funding. Interested students are encouraged to email `kaihangshi0@gmail.com` with your CV and research interests. <br><br>
+Quantum and molecular-level modeling and statistical mechanical theories are central in the efforts to achieve an atomic-level understanding of nanoporous systems, in length and time scales that are inaccessible to state-of-the-art experiments. On the other hand, artificial intelligence (AI), provides a data-based solution to reveal important structure-property relationships that are difficult to discover with conventional methods. <br>
+
+The overarching goal of our research group is to better understand the nature of nanoporous adsorbents, and their unique confinement and surface effects on nanophases and reactions, by integrating physics-based and data-based computational methods, with the hope to address major societal problems facing our planet. <br>
+
+At the moment, we have three research directions aimed at pushing the boundaries of discovery, design, and characterization of nanoporous materials and confined systems:<br>
+
+- **Physics-informed machine learning for materials discovery & design.** We develop advanced machine learning, materials informatics, and molecular simulations methods to accelerate computational nanoporous materials discovery and design for clean energy storage technologies (*e.g.*, battery and hydrogen storage) and chemical separation applications. <br>
+
+- **Next-gen experimental characterization platform for nanoporous materials.** We develop AI-guided, experimental characterization methods for nanoporous materials towards an enhance material-computer interface. The ultimate goal is to enable an efficient and interpretable materials discovery in self-driving lab and high-throughput experiments. <br>
+
+- **Computational and theoretical studies of confined phases and reactions.** We develop realistic statistical mechanical theories and molecular simulation methods to understand novel confined phase transitions and chemical reactions, with applications in nucleation, crystallization, drug delivery, and high-pressure nano-manufacturing of pharmaceutics. <br><br>
+
+*Currently, we are actively recruiting at multiple levels. Please see [Openings](https://shiresearchgroup.github.io/openings/) for more information.*
+
+ 

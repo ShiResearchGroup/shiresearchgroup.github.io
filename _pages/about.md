@@ -16,4 +16,4 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hello world!!
+Our group leverages data science, statistical mechanics, molecular modeling, and machine learning tools to design and discover new materials and address some of society’s most pressing technological needs. We also collaborate with other groups in the United States and around the world to develop and deploy new technologies.
