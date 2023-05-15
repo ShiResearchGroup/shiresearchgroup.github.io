@@ -20,7 +20,7 @@ Quantum and molecular-level modeling and statistical mechanical theories are cen
 
 At the moment, we have three research directions aimed at pushing the boundaries of discovery, design, and characterization of nanoporous materials and confined systems:<br>
 
-- **Physics-informed machine learning for materials discovery & design.** We develop advanced machine learning, materials informatics, and molecular simulations methods to accelerate computational nanoporous materials discovery and design for clean energy storage technologies (*e.g.*, battery and hydrogen storage) and chemical separation applications. <br>
+- **Physics-informed machine learning for materials discovery & design.** We develop advanced machine learning, materials informatics, and molecular simulation methods to accelerate computational nanoporous materials discovery and design for clean energy storage technologies (*e.g.*, battery and hydrogen storage) and chemical separation applications. <br>
 
 - **Next-gen experimental characterization platform for nanoporous materials.** We develop AI-guided, experimental characterization methods for nanoporous materials towards an enhanced material-computer interface. The ultimate goal is to enable efficient and interpretable materials discovery in self-driving lab and high-throughput experiments. <br>
 
