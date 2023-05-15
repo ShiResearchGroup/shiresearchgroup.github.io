@@ -22,7 +22,7 @@ At the moment, we have three research directions aimed at pushing the boundaries
 
 - **Physics-informed machine learning for materials discovery & design.** We develop advanced machine learning, materials informatics, and molecular simulations methods to accelerate computational nanoporous materials discovery and design for clean energy storage technologies (*e.g.*, battery and hydrogen storage) and chemical separation applications. <br>
 
-- **Next-gen experimental characterization platform for nanoporous materials.** We develop AI-guided, experimental characterization methods for nanoporous materials towards an enhance material-computer interface. The ultimate goal is to enable an efficient and interpretable materials discovery in self-driving lab and high-throughput experiments. <br>
+- **Next-gen experimental characterization platform for nanoporous materials.** We develop AI-guided, experimental characterization methods for nanoporous materials towards an enhanced material-computer interface. The ultimate goal is to enable efficient and interpretable materials discovery in self-driving lab and high-throughput experiments. <br>
 
 - **Computational and theoretical studies of confined phases and reactions.** We develop realistic statistical mechanical theories and molecular simulation methods to understand novel confined phase transitions and chemical reactions, with applications in nucleation, crystallization, drug delivery, and high-pressure nano-manufacturing of pharmaceutics. <br><br>
 
