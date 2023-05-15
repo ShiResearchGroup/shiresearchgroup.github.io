@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Welcome to the Shi Research Group at the <a href='https://www.buffalo.edu/'>University at Buffalo</a>!
+subtitle: 
 
 profile:
   align: right
@@ -23,7 +23,8 @@ social: true  # includes social icons at the bottom of the page
 </div>
 <br>
 
-We are a computational and theoretical research group. We leverage machine learning, quantum and molecular-level modeling, statistical mechanics, and mathematical modeling <br>
+We are a computational and theoretical research group. We leverage machine learning, quantum and molecular-level modeling, statistical mechanics, and mathematical modeling: <br>
 - To gain fundamental understanding at the interface of materials science and chemical physics. <br> 
 - To accelerate porous materials discovery and design by building computational and theoretical infrastructures. <br>
+
 We aim to to better understand the nature of nanoporous adsorbents, and their unique confinement and surface effects on nanophases and reactions, with the hope to address pressing societal problems facing our planet. <br>
