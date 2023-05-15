@@ -23,11 +23,7 @@ social: true  # includes social icons at the bottom of the page
 </div>
 <br>
 
-We are a computational and theoretical research group. We leverage quantum and molecular-level modeling, statistical mechanics, machine learning, and mathematical modeling to 
-
-
-
-The overarching goal of our research group is to better understand the nature of nanoporous adsorbents, and their unique confinement and surface effects on nanophases and reactions, by integrating physics-based and data-based computational methods, with the hope to address major societal problems facing our planet. <br>
-
-
-Our group leverages data science, statistical mechanics, molecular modeling, and machine learning tools to design and discover new materials and address some of society’s most pressing technological needs. We also collaborate with other groups in the United States and around the world to develop and deploy new technologies.
+We are a computational and theoretical research group. We leverage machine learning, quantum and molecular-level modeling, statistical mechanics, and mathematical modeling <br>
+- To gain fundamental understanding at the interface of materials science and chemical physics. <br> 
+- To accelerate porous materials discovery and design by building computational and theoretical infrastructures. <br>
+We aim to to better understand the nature of nanoporous adsorbents, and their unique confinement and surface effects on nanophases and reactions, with the hope to address pressing societal problems facing our planet. <br>
