@@ -23,6 +23,6 @@ social: true  # includes social icons at the bottom of the page
 </div>
 <br>
 
-Welcome to the DP (**D**igital **P**orous Materials) Lab! We are a computational and theoretical research group. We leverage machine learning, quantum and molecular-level modeling, statistical mechanics, and mathematical modeling: <br>
+Welcome to the DP Lab (**D**igital **P**orous Materials Lab) <a href='https://www.buffalo.edu/'>@ University at Buffalo</a>! We are a computational and theoretical research group. We leverage machine learning, quantum and molecular-level modeling, statistical mechanics, and mathematical modeling: <br>
 - To gain fundamental understanding at the interface of materials science and chemical physics. <br> 
 - To develop cutting-edge porous materials solutions to major societal problems facing our planet. <br><br><br>
