@@ -3,7 +3,7 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: Shi Group
+first_name: DP Lab
 middle_name: 
 last_name: "@ UB"
 email: kaihangshi0@gmail.com
@@ -51,7 +51,7 @@ rss_icon: false
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: false
+footer_fixed: true
 
 # Dimensions
 max_width: 800px
