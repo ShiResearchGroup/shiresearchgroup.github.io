@@ -20,11 +20,11 @@ Quantum and molecular-level modeling and statistical mechanical theories are cen
 
 At the moment, we have three general research directions aimed at pushing the boundaries of discovery, design, and characterization of nanoporous materials and confined systems:<br>
 
-- **Physics-informed machine learning for materials discovery & design.** We develop advanced machine learning, materials informatics, and molecular simulation methods to accelerate computational nanoporous materials discovery and design for clean energy storage technologies (*e.g.*, battery and hydrogen storage) and chemical separation applications. <br>
+- **Physics-informed machine learning for materials discovery & design.** We develop advanced machine learning, materials informatics, and molecular simulation methods to accelerate computational nanoporous materials discovery and design for clean energy and chemical separation applications. <br>
 
-- **Next-gen experimental characterization platform for nanoporous materials.** We develop AI-guided theories and tools for experimental characterization of complex nanoporous materials, towards an enhanced material-computer interface. The ultimate goal is to enable efficient and interpretable materials discovery in self-driving lab and high-throughput experiments. <br>
+- **Next-gen experimental characterization platform for nanoporous materials.** We develop advanced theories and tools for experimental characterization of complex nanoporous materials. The ultimate goal is to enable efficient and interpretable materials discovery in self-driving lab and high-throughput experiments. <br>
 
-- **Computational and theoretical studies of confined phases and reactions.** We develop realistic statistical mechanical theories and molecular simulation methods to understand novel confined phase transitions and chemical reactions, with applications in nucleation, crystallization, drug delivery, and high-pressure nano-manufacturing of pharmaceutics. <br><br>
+- **Computational and theoretical studies of confined phases and reactions.** We develop realistic statistical mechanical theories and simulation methods to understand complex phase transitions and chemical reactions in confinement, with applications in crystallization, drug delivery, and nano-manufacturing of pharmaceutics. <br><br>
 
 *Currently, we are actively recruiting at multiple levels. Please see [Openings](https://shiresearchgroup.github.io/openings/) for more information.*
 
