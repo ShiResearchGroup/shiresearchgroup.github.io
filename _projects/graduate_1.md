@@ -6,4 +6,5 @@ img: assets/img/ub_bull.png
 redirect: https://engineering.buffalo.edu/chemical-biological/academics/graduate/admissions.html
 importance: 1
 category: Graduate Students
+horizontal: true
 ---
