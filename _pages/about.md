@@ -25,4 +25,5 @@ social: true  # includes social icons at the bottom of the page
 
 **Welcome to the DP Lab (<u>D</u>igital <u>P</u>orous Materials <u>Lab</u>) <a href='https://www.buffalo.edu/'>@ University at Buffalo</a>!** We are a computational and theoretical research group. We leverage machine learning, quantum and molecular-level modeling, statistical mechanics, and mathematical modeling: <br>
 - To gain fundamental understanding at the interface of materials science and chemical physics. <br> 
-- To develop cutting-edge porous materials solutions to major societal problems facing our planet. <br><br><br>
+- To develop cutting-edge porous materials solutions to major societal problems facing our planet. <br>
+We are also an affiliate member of the [Acceleration Consortium](https://acceleration.utoronto.ca/affiliates), an initiative to accelerate the discovery of advanced materials and molecules with the power of AI, robotics, and advanced computing.<br><br><br>
