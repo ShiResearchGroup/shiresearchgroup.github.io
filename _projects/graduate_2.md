@@ -5,6 +5,6 @@ description: We are actively looking for graduate students now!
 img: assets/img/ub_bull.png
 redirect: https://engineering.buffalo.edu/chemical-biological/academics/graduate/admissions.html
 importance: 6
-category: Graduate Students
+category: XXX
 horizontal: true
 ---
