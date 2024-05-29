@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Jeffrey Zhang
-description: Undergraduate Student (Mechanical Engineering)<br>Email&#58; jlzhang4@buffalo.edu
+description: Undergraduate Student (Mechanical Engineering)
 img: assets/img/jzhang.jpg
 redirect: 
 importance: 1
