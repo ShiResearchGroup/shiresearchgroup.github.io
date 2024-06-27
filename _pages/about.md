@@ -18,7 +18,7 @@ social: true  # includes social icons at the bottom of the page
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/web_cover_v2.jpg" title="Welcome to the DP Lab @ UB" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/group_photo_June2024.jpg" title="Group photo in June 2024" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <br>
