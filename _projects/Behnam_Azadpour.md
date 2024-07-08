@@ -5,6 +5,6 @@ description: MS student (Chemical Engineering) <br>MS, Materials Sci. & Eng., Sh
 img: assets/img/behnam.jpg
 redirect: 
 importance: 2
-category: Graduate Students
+category: NONE
 horizontal: true
 ---
