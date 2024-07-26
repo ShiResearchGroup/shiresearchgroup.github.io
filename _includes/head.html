@@ -29,26 +29,3 @@
     <script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/dark_mode.js' | relative_url }}"></script>
     {% endif %}
-
-    {% if page.images %}
-        <!-- Image comparison slider -->
-        {% if page.images.compare %}
-            <link
-            defer
-            rel="stylesheet"
-            href="{{ site.third_party_libraries.img-comparison-slider.url.css }}"
-            integrity="{{ site.third_party_libraries.img-comparison-slider.integrity.css }}"
-            crossorigin="anonymous"
-            >
-        {% endif %}
-        <!-- Image slider -->
-        {% if page.images.slider %}
-            <link
-            defer
-            rel="stylesheet"
-            href="{{ site.third_party_libraries.swiper.url.css }}"
-            integrity="{{ site.third_party_libraries.swiper.integrity.css }}"
-            crossorigin="anonymous"
-            >
-        {% endif %}
-    {% endif %}

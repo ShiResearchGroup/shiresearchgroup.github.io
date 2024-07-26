@@ -18,12 +18,7 @@ social: true  # includes social icons at the bottom of the page
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-
-      <swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true">
-        <swiper-slide>{% include figure.html path="assets/img/group_photo_June2024.jpg" title="Group photo in June 2024" class="img-fluid rounded z-depth-1" %}</swiper-slide>
-        <swiper-slide>{% include figure.html path="assets/img/group_photo_June2024.jpg" title="Group photo in June 2024" class="img-fluid rounded z-depth-1" %}</swiper-slide>
-      </swiper-container>
-        
+        {% include figure.html path="assets/img/group_photo_June2024.jpg" title="Group photo in June 2024" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <br>
