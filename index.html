@@ -38,6 +38,8 @@
     <!-- Dark Mode -->
     
 
+    
+
   </head>
 
   <!-- Body -->
@@ -118,7 +120,9 @@
           <div class="clearfix">
             <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <figure>
+
+      <swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true">
+        <swiper-slide><figure>
 
   <picture>
     
@@ -133,7 +137,25 @@
   </picture>
 
 </figure>
+</swiper-slide>
+        <swiper-slide><figure>
 
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/group_photo_June2024-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/group_photo_June2024-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/group_photo_June2024-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/group_photo_June2024.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Group photo in June 2024" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+</swiper-slide>
+      </swiper-container>
+        
     </div>
 </div>
 <p><br></p>
@@ -290,7 +312,7 @@
     <footer class="fixed-bottom">
       <div class="container mt-0">
         © Copyright 2024 DP Lab  @ UB. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>.
-Last updated: July 18, 2024.
+Last updated: July 26, 2024.
       </div>
     </footer>
 
@@ -415,5 +437,6 @@ Last updated: July 18, 2024.
   }
 </script>
 
+    
   </body>
 </html>
