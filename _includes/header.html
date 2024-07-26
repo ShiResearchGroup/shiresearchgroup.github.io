@@ -52,9 +52,6 @@
                 </a>
               </li>
 
-              <!-- Handbook --> 
-              <li class="nav-item"><a class="nav-link" href="https://shigrouphandbook.notion.site/Shi-Research-Group-Handbook-73ec685ece83470b94ad272df0cddde1">Handbook</a></li> 
-
               {% if site.blog_nav_title %}
               <!-- Blog -->
               <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
@@ -98,6 +95,11 @@
               {%- endif -%}
               {%- endif -%}
               {% endfor -%}
+
+              <!-- Handbook --> 
+              <li class="nav-item"><a class="nav-link" href="https://shigrouphandbook.notion.site/Shi-Research-Group-Handbook-73ec685ece83470b94ad272df0cddde1">Handbook</a></li> 
+
+
               {%- if site.enable_darkmode %}
 
               <!-- Toogle theme mode -->
