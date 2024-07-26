@@ -860,3 +860,9 @@ progress::-moz-progress-bar {
     opacity: 1;
   }
 }
+
+swiper-container {
+  --swiper-navigation-color: var(--global-theme-color);
+  --swiper-pagination-color: var(--global-theme-color);
+  --swiper-pagination-bullet-inactive-color: var(--global-text-color);
+}
