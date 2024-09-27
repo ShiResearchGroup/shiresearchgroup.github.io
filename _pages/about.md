@@ -16,15 +16,10 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-<div class="swiper-container">
-  <div class="swiper-wrapper">
-    <div class="swiper-slide">{% include figure.html path="assets/img/group_photo_June2024.jpg" title="Group photo in June 2024" class="img-fluid rounded z-depth-1" %}</div>
-    <div class="swiper-slide">{% include figure.html path="assets/img/group_lunch_Feb_28_2024.jpg" title="Another Image" class="img-fluid rounded z-depth-1" %}</div>
-    <div class="swiper-slide">{% include figure.html path="assets/img/group_meeting_Jan_25_2024.jpg" title="Third Image" class="img-fluid rounded z-depth-1" %}</div>
-  </div>
-  <div class="swiper-pagination"></div>
-  <div class="swiper-button-next"></div>
-  <div class="swiper-button-prev"></div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/group_photo_June2024.jpg" title="Group photo in June 2024" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
 <br>
 
