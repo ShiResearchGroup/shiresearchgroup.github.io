@@ -74,56 +74,6 @@ layout: default
 
             </div>
           {%- endif %}
-
-          <div class="swiper-container">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide"><img src="assets/img/group_photo_June2024.jpg" alt="Image 1"></div>
-              <div class="swiper-slide"><img src="assets/img/group_photo_June2024.jpg" alt="Image 2"></div>
-              <div class="swiper-slide"><img src="assets/img/group_photo_June2024.jpg" alt="Image 3"></div>
-              <!-- Add more slides as needed -->
-            </div>
-            <!-- Add pagination -->
-            <div class="swiper-pagination"></div>
-            <!-- Add navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-          </div>
         </article>
 
 </div>
-
-<head>
-  <!-- ... other head elements ... -->
-  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-  <style>
-    .swiper-container {
-      width: 100%;
-      height: 400px; /* Adjust height as needed */
-    }
-
-    .swiper-slide img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-  </style>
-</head>
-
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
-    new Swiper('.swiper-container', {
-      loop: true,
-      pagination: {
-        el: '.swiper-pagination',
-      },
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-      autoplay: {
-        delay: 5000,
-      },
-    });
-  });
-</script>
