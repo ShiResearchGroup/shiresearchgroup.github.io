@@ -14,50 +14,16 @@ news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
+
+carousels:
+  - images: 
+    - image: assets/img/image_slider/group_photo_June2024.jpg
+    - image: assets/img/image_slider/JCP.jpg
+    - image: assets/img/image_slider/JACS.jpg
+    - image: assets/img/image_slider/JCTC.jpg
+    - image: assets/img/image_slider/AMI.jpg
 ---
-<!-- remember to change loopedSlides in about.html -->
-<div class="row justify-content-sm-center">
-    <div class="col-sm mt-3 mt-md-0">
-        <div class="swiper-container">
-            <div class="swiper-wrapper">
-            
-                <div class="swiper-slide">
-                    <a href="https://shiresearchgroup.github.io/">
-                        {% include figure.html path="assets/img/image_slider/group_photo_June2024.jpg" class="img-fluid rounded z-depth-1" %}
-                    </a>
-                </div>
 
-                <div class="swiper-slide">
-                    <a href="https://aip.scitation.org/doi/10.1063/5.0132487">
-                        {% include figure.html path="assets/img/image_slider/JCP.jpg" class="img-fluid rounded z-depth-1" %}
-                    </a>
-                </div>
-
-                <div class="swiper-slide">
-                    <a href="https://pubs.acs.org/doi/10.1021/jacs.3c03708">
-                        {% include figure.html path="assets/img/image_slider/JACS.jpg" class="img-fluid rounded z-depth-1" %}
-                    </a>
-                </div>
-
-                <div class="swiper-slide">
-                    <a href="https://pubs.acs.org/doi/10.1021/acs.jctc.2c00798">
-                        {% include figure.html path="assets/img/image_slider/JCTC.jpg" class="img-fluid rounded z-depth-1" %}
-                    </a>
-                </div>
-
-                <div class="swiper-slide">
-                    <a href="https://pubs.acs.org/doi/10.1021/acsami.4c02117">
-                        {% include figure.html path="assets/img/image_slider/AMI.jpg" class="img-fluid rounded z-depth-1" %}
-                    </a>
-                </div>
-
-            </div>
-            <div class="swiper-pagination"></div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-        </div>
-    </div>
-</div>
 <br>
 
 **Welcome to the DP Lab (<u>D</u>igital <u>P</u>orous Materials <u>Lab</u>) <a href='https://www.buffalo.edu/'>@ University at Buffalo</a>!** We are a computational and theoretical research group. We leverage machine learning, quantum and molecular-level modeling, statistical mechanics, and mathematical modeling: <br>
