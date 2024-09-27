@@ -15,12 +15,12 @@ latest_posts: false  # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-
+<!-- remember to change loopedSlides in about.html -->
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
         <div class="swiper-container">
             <div class="swiper-wrapper">
-
+            
                 <div class="swiper-slide">
                     {% include figure.html path="assets/img/image_slider/group_photo_June2024.jpg" class="img-fluid rounded z-depth-1" %}
                 </div>
