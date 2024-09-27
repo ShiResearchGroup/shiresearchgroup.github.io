@@ -22,7 +22,9 @@ social: true  # includes social icons at the bottom of the page
             <div class="swiper-wrapper">
             
                 <div class="swiper-slide">
-                    {% include figure.html path="assets/img/image_slider/group_photo_June2024.jpg" class="img-fluid rounded z-depth-1" %}
+                    <a href="https://shiresearchgroup.github.io/">
+                        {% include figure.html path="assets/img/image_slider/group_photo_June2024.jpg" class="img-fluid rounded z-depth-1" %}
+                    </a>
                 </div>
 
                 <div class="swiper-slide">
