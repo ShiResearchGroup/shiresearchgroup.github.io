@@ -103,9 +103,11 @@ layout: default
 <script>
   document.addEventListener('DOMContentLoaded', function() {
     new Swiper('.swiper-container', {
-      loop: true,
+      loop: false,
+      effect: 'fade',
       pagination: {
         el: '.swiper-pagination',
+        clickable: true,
       },
       navigation: {
         nextEl: '.swiper-button-next',
