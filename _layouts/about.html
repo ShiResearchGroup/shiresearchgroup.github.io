@@ -129,11 +129,11 @@ layout: default
     });
 
     function initSwiper() {
-      new Swiper('.swiper-container', {
+      const swiper = new Swiper('.swiper-container', {
         loop: true,
         effect: 'fade',
         fadeEffect: {
-          crossFade: true
+          crossFade: false
         },
         pagination: {
           el: '.swiper-pagination',
@@ -146,6 +146,17 @@ layout: default
         autoplay: {
           delay: 5000,
         },
+      });
+
+      // Add event listeners for navigation buttons
+      document.querySelector('.swiper-button-next').addEventListener('click', function(e) {
+        e.preventDefault();
+        swiper.slideNext();
+      });
+
+      document.querySelector('.swiper-button-prev').addEventListener('click', function(e) {
+        e.preventDefault();
+        swiper.slidePrev();
       });
     }
   });
