@@ -24,6 +24,7 @@ carousels:
     - image: assets/img/image_slider/AMI.jpg
 ---
 
+<br> 
 
 **Welcome to the DP Lab (<u>D</u>igital <u>P</u>orous Materials <u>Lab</u>) <a href='https://www.buffalo.edu/'>@ University at Buffalo</a>!** We are a computational and theoretical research group. We leverage machine learning, quantum and molecular-level modeling, statistical mechanics, and mathematical modeling: <br>
 - To gain fundamental understanding at the interface of materials science and chemical physics. <br> 
