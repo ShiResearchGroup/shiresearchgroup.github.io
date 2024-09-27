@@ -20,9 +20,14 @@ social: true  # includes social icons at the bottom of the page
     <div class="col-sm mt-3 mt-md-0">
         <div class="swiper-container">
             <div class="swiper-wrapper">
-                <div class="swiper-slide">{% include figure.html path="assets/img/group_photo_June2024.jpg" title="Group photo in June 2024" class="img-fluid rounded z-depth-1" %}</div>
-                <div class="swiper-slide">{% include figure.html path="assets/img/group_photo_June2024.jpg" title="Another Image" class="img-fluid rounded z-depth-1" %}</div>
-                <div class="swiper-slide">{% include figure.html path="assets/img/group_photo_June2024.jpg" title="Third Image" class="img-fluid rounded z-depth-1" %}</div>
+                <div class="swiper-slide">
+                    {% include figure.html path="assets/img/group_photo_June2024.jpg" title="Group photo in June 2024" class="img-fluid rounded z-depth-1" %}
+                </div>
+                <div class="swiper-slide">
+                    <a href="https://pubs.acs.org/doi/10.1021/acsami.4c02117">
+                        {% include figure.html path="assets/img/Slide2.jpg" title="ACS AMI" class="img-fluid rounded z-depth-1" %}
+                    </a>
+                </div>
             </div>
             <div class="swiper-pagination"></div>
             <div class="swiper-button-next"></div>
