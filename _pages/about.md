@@ -18,10 +18,6 @@ social: true  # includes social icons at the bottom of the page
 carousels:
   - images: 
     - image: assets/img/image_slider/group_photo_June2024.jpg
-    - image: assets/img/image_slider/JCP.jpg
-    - image: assets/img/image_slider/JACS.jpg
-    - image: assets/img/image_slider/JCTC.jpg
-    - image: assets/img/image_slider/AMI.jpg
 ---
 
 <br> 
