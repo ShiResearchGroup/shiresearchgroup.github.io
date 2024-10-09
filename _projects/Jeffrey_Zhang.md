@@ -5,6 +5,6 @@ description: Undergraduate Student (Mechanical Engineering)
 img: assets/img/jzhang.jpg
 redirect: 
 importance: 1
-category: Undergraduates
+category: Alumni
 horizontal: true
 ---
