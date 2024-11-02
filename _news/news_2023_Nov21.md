@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Dr. Shi's co-authored research paper on the supported copper oxide nanoclusters for methane activation was published online in [EES Catalysis](https://pubs.rsc.org/en/content/articlehtml/2024/ey/d3ey00234a)! 🤯
+Prof. Shi's co-authored research paper on the supported copper oxide nanoclusters for methane activation was published online in [EES Catalysis](https://pubs.rsc.org/en/content/articlehtml/2024/ey/d3ey00234a)! 🤯

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Dr. Shi's co-first author paper on molecular transport in MOFs was just published online in [JACS](https://pubs.acs.org/doi/10.1021/jacs.3c03708)! ✨  
+Prof. Shi's co-first author paper on molecular transport in MOFs was just published online in [JACS](https://pubs.acs.org/doi/10.1021/jacs.3c03708)! ✨  

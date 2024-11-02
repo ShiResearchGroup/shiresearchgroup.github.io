@@ -6,7 +6,7 @@ inline: false
 related_posts: false
 ---
 
-Dr. Shi will deliver an invited online seminar in National Energy Technology Laboratory (NETL) next week!
+Prof. Shi will deliver an invited online seminar in National Energy Technology Laboratory (NETL) next week!
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

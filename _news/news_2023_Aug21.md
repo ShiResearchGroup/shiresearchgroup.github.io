@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Dr. Shi officially started as an Assistant Professor in the Department of Chemical and Biological Engineering at UB! 🥳🥳
+Prof. Shi officially started as an Assistant Professor in the Department of Chemical and Biological Engineering at UB! 🥳🥳

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Prof. Shi has won the American Chemical Society (ACS) Petroleum Research Fund (PRF) Doctoral New Investigator award! 🎉 This grant will support our investigation of molecular traffic in complex pore networks using molecular simulations and machine learning. 🔬
+Prof. Shi has won the ACS PRF Doctoral New Investigator award! 🎉 This grant will support us to investigate molecular traffic in complex pore networks using molecular simulations and machine learning. 🔬
