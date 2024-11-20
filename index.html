@@ -128,13 +128,15 @@
         
           <input class="carousel__activator" type="radio" name="carousel0" id="0b">
         
+          <input class="carousel__activator" type="radio" name="carousel0" id="0c">
+        
         
           
           
           
           
           <div class="carousel__controls">
-              <label class="carousel__control carousel__control--backward" for="0b"></label>
+              <label class="carousel__control carousel__control--backward" for="0c"></label>
               <label class="carousel__control carousel__control--forward" for="0b"></label>
           </div>
         
@@ -144,11 +146,22 @@
           
           <div class="carousel__controls">
               <label class="carousel__control carousel__control--backward" for="0a"></label>
+              <label class="carousel__control carousel__control--forward" for="0c"></label>
+          </div>
+        
+          
+          
+          
+          
+          <div class="carousel__controls">
+              <label class="carousel__control carousel__control--backward" for="0b"></label>
               <label class="carousel__control carousel__control--forward" for="0a"></label>
           </div>
         
         <div class="carousel__track">
           <ul>
+            
+            <li class="carousel__slide" style="background-image: url('assets/img/image_slider/graspa.jpg');">
             
             <li class="carousel__slide" style="background-image: url('assets/img/image_slider/acsprfdni.jpg');">
             
@@ -161,6 +174,8 @@
               <label class="carousel__indicator" for="0a"></label>
             
               <label class="carousel__indicator" for="0b"></label>
+            
+              <label class="carousel__indicator" for="0c"></label>
             
         </div>
     </div>
@@ -224,6 +239,29 @@
   opacity: 1;
 }
 .carousel__activator:nth-of-type(2):checked ~ .carousel__indicators .carousel__indicator:nth-of-type(2) {
+  opacity: 1;
+}
+
+.carousel__activator:nth-of-type(3):checked ~ .carousel__track {
+  -webkit-transform: translateX(-200%);
+          transform: translateX(-200%);
+}
+.carousel__activator:nth-of-type(3):checked ~ .carousel__slide:nth-of-type(3) {
+  transition: opacity 0.5s, -webkit-transform 0.5s;
+  transition: opacity 0.5s, transform 0.5s;
+  transition: opacity 0.5s, transform 0.5s, -webkit-transform 0.5s;
+  top: 0;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+.carousel__activator:nth-of-type(3):checked ~ .carousel__controls:nth-of-type(3) {
+  display: block;
+  opacity: 1;
+}
+.carousel__activator:nth-of-type(3):checked ~ .carousel__indicators .carousel__indicator:nth-of-type(3) {
   opacity: 1;
 }
 
@@ -306,6 +344,11 @@
           transform: translateX(100%);
 }
 
+.carousel__track .carousel__slide:nth-of-type(3) {
+  -webkit-transform: translateX(200%);
+          transform: translateX(200%);
+}
+
 
 .carousel--scale .carousel__slide {
   -webkit-transform: scale(0);
@@ -334,6 +377,12 @@
 
 .carousel__slide:nth-of-type(2),
 .carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(2) {
+  background-size: cover;
+  background-position: center;
+}
+
+.carousel__slide:nth-of-type(3),
+.carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(3) {
   background-size: cover;
   background-position: center;
 }
@@ -404,6 +453,13 @@
             <div class="table-responsive">
               <table class="table table-sm table-borderless">
               
+                <tr>
+                  <th scope="row">Nov 19, 2024</th>
+                  <td>
+                    Prof. Shi’s co-authored paper on gRASPA, a GPU-accelerated Monte Carlo software that is designed for simulating gas adsorption in nanoporous materials, is now available online in <a href="https://pubs.acs.org/doi/10.1021/acs.jctc.4c01058" rel="external nofollow noopener" target="_blank">Journal of Chemical Theory and Computation</a>! The software is open-source and freely available on <a href="https://github.com/snurr-group/gRASPA" rel="external nofollow noopener" target="_blank">GitHub</a>. Give it a try! 🤯
+
+                  </td>
+                </tr>
                 <tr>
                   <th scope="row">Nov 1, 2024</th>
                   <td>
@@ -646,7 +702,7 @@
     <footer class="fixed-bottom">
       <div class="container mt-0">
         © Copyright 2024 DP Lab  @ UB. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>.
-Last updated: November 02, 2024.
+Last updated: November 20, 2024.
       </div>
     </footer>
 
