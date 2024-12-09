@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Dr. Shi was elected to serve on the Early Career Board for the ACS's [Journal of Chemical & Engineering Data](https://pubs.acs.org/journal/jceaax) and on the Program Committee for the AIChE Area 1a
+title: Prof. Shi was elected to serve on the Early Career Board for the ACS's Journal of Chemical & Engineering Data and the Program Committee for the AIChE Area 1a
 date: 2024-12-02 14:23:00-CST
 inline: false
 related_posts: false
