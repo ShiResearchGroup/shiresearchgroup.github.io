@@ -37,7 +37,7 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1.4' # Specify exact version
+          ruby-version: '3.3.5' # Specify exact version
           bundler-cache: true
         
       - name: Setup Pages
@@ -50,7 +50,7 @@ jobs:
         run: bundle exec jekyll build
         
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v2
         with:
           path: "_site/"
 
