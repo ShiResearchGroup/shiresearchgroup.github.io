@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Asha Jyothi
-description: MS student (Chemical Engineering)<br>B.Tech., Chemical Engineering, Osmania University (2023) 
+description: MS, Chemical Engineering (2023-2025) <br>B.Tech., Chemical Engineering, Osmania University (2023) 
 img: assets/img/Asha.jpg
 redirect: 
-importance: 4
-category: Graduate Students
+importance: 996
+category: Alumni
 horizontal: true
 ---
