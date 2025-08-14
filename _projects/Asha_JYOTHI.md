@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Asha Jyothi
-description: MS, Chemical Engineering (2023-2025) <br>B.Tech., Chemical Engineering, Osmania University (2023) 
+description: Now R&D Engineer at SafeSource Direct <br> MS, Chemical Engineering (2023-2025) <br>B.Tech., Chemical Engineering, Osmania University (2023) 
 img: assets/img/Asha.jpg
 redirect: 
 importance: 996
