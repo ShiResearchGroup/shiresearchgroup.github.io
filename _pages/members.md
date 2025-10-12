@@ -5,7 +5,7 @@ permalink: /members/
 description: 
 nav: true
 nav_order: 2
-display_categories: [PI, Postdoc, Graduate Students, Undergraduates, Alumni]
+display_categories: [PI, Graduate Students, Undergraduates, Alumni]
 horizontal: true
 ---
 
