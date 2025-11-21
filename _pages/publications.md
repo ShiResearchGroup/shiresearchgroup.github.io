@@ -3,12 +3,12 @@ layout: page
 permalink: /publications/
 title: Publications
 description: 
-years: [2024,2023,2021,2020,2019,2018,2016,2015]
+years: [2025,2024,2023,2021,2020,2019,2018,2016,2015]
 nav: true
 nav_order: 3
 ---
 
-See [Google Scholar](https://scholar.google.com/citations?user=UCZC5w8AAAAJ&hl=en&authuser=1). Asterisk (*) denotes corresponding authors. Ampersand (&) denotes equal contribution.
+See [Google Scholar](https://scholar.google.com/citations?user=UCZC5w8AAAAJ&hl=en&authuser=1). * corresponding authors; & equal contribution; ^ students from the Shi group.
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/pub_img/mofxdb.jpg" title="MOFX-DB: An Online Database of Computational Adsorption Data for Nanoporous Materials" class="img-fluid rounded z-depth-1" zoomable=true %}
