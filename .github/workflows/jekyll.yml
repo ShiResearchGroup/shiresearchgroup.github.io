@@ -40,14 +40,14 @@ jobs:
           ruby-version: '3.3.5' # Specify exact version
           bundler-cache: true
         
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-        
       - name: Install dependencies
         run: bundle install
         
       - name: Build site
         run: bundle exec jekyll build
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
         
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
