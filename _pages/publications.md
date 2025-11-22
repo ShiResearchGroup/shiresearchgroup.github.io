@@ -8,7 +8,7 @@ nav: true
 nav_order: 3
 ---
 
-See [Google Scholar](https://scholar.google.com/citations?user=UCZC5w8AAAAJ&hl=en&authuser=1). * corresponding authors; & equal contribution; ^ students from the Shi group.
+See [Google Scholar](https://scholar.google.com/citations?user=UCZC5w8AAAAJ&hl=en&authuser=1). * corresponding authors; & equal contribution; ^ the Shi group's member.
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/pub_img/mofxdb.jpg" title="MOFX-DB: An Online Database of Computational Adsorption Data for Nanoporous Materials" class="img-fluid rounded z-depth-1" zoomable=true %}
