@@ -19,6 +19,7 @@ carousels:
   - images: 
     - image: assets/img/image_slider/graspa.jpg
     - image: assets/img/image_slider/acsprfdni.jpg
+    - image: assets/img/image_slider/2025_CBE_symposium.jpg
     - image: assets/img/image_slider/group_photo_June2024.jpg
 ---
 
