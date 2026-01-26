@@ -29,4 +29,4 @@ carousels:
 - To gain fundamental understanding at the interface of materials science and chemical physics. <br> 
 - To develop cutting-edge porous materials solutions to major societal problems facing our planet. <br>
 
-We are also an affiliate member of the [Acceleration Consortium](https://acceleration.utoronto.ca/affiliates), an initiative to accelerate the discovery of advanced materials and molecules with the power of AI, robotics, and advanced computing.<br><br><br>
+We are also an affiliate member of the [Acceleration Consortium](https://acceleration.utoronto.ca/members/affiliate-members), an initiative to accelerate the discovery of advanced materials and molecules with the power of AI, robotics, and advanced computing.<br><br><br>
