@@ -4,7 +4,7 @@ title: Members
 permalink: /members/
 description: 
 nav: true
-nav_order: 2
+nav_order: 3
 display_categories: [PI, Visiting Scholar, Graduate Students, Undergraduates, Alumni]
 horizontal: true
 ---
