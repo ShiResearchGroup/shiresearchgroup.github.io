@@ -21,7 +21,7 @@ Some highlights of this course:
 - Structured to help ChemE students develop fundamental abilities to understand, critically evaluate, and interact with AI/ML systems.
 - Covers a comprehensive spectrum of AI/ML concepts: AI-assisted programming, predictive modeling (e.g., regression and classification), prescriptive algorithms (e.g., genetic algorithm), and generative AI (e.g., transformer), emphasizing breadth over depth.
 - Narrative lectures on AI/ML algorithms are accompanied by highly interactive hands-on demonstrations in the context of chemical science and engineering.
-- Features guest lectures from leading scientists and engineers in both academia and industry (see past guest speakers).
+- Features guest lectures from leading scientists and engineers in both academia and industry (see [past guest speakers](https://github.com/KaihangShi/AI-for-Chemical-Engineers_UB?tab=readme-ov-file#acknowledgment)).
 
 All course materials are made public via [GitHub](https://github.com/KaihangShi/AI-for-Chemical-Engineers_UB).
 
