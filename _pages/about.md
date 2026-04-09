@@ -29,14 +29,14 @@ carousels:
 - To gain fundamental understanding at the interface of materials science and chemical physics. <br> 
 - To develop cutting-edge porous materials solutions to major societal problems facing our planet. <br>
 
-We are also an affiliate member of the [Acceleration Consortium](https://acceleration.utoronto.ca/members/affiliate-members), an initiative to accelerate the discovery of advanced materials and molecules with the power of AI, robotics, and advanced computing.<br><br><br>
+We are also an affiliate member of the [Acceleration Consortium](https://acceleration.utoronto.ca/members/affiliate-members), an initiative to accelerate the discovery of advanced materials and molecules with the power of AI, robotics, and advanced computing.<br>
 
 **Our sponsors:**
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 20px;">
-  <img src="/assets/img/sponsors/nsf_career.png" alt="NSF CAREER" style="max-height: 100px; max-width: 30%;">
-  <img src="/assets/img/sponsors/acs_prf.png" alt="ACS PRF DNI" style="max-height: 100px; max-width: 30%;">
-  <img src="/assets/img/sponsors/ub.png" alt="UB" style="max-height: 100px; max-width: 30%;">
-  <img src="/assets/img/sponsors/ub_seas.png" alt="UB SEAS" style="max-height: 100px; max-width: 30%;">
+  <img src="/assets/img/sponsors/nsf_career.png" alt="NSF CAREER" style="max-height: 100px; max-width: 22%;">
+  <img src="/assets/img/sponsors/acs_prf.png" alt="ACS PRF DNI" style="max-height: 100px; max-width: 22%;">
+  <img src="/assets/img/sponsors/ub.png" alt="UB" style="max-height: 100px; max-width: 22%;">
+  <img src="/assets/img/sponsors/ub_seas.png" alt="UB SEAS" style="max-height: 100px; max-width: 22%;">
 </div>
-
+<br><br>
