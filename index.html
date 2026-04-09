@@ -133,15 +133,13 @@
         
           <input class="carousel__activator" type="radio" name="carousel0" id="0c">
         
-          <input class="carousel__activator" type="radio" name="carousel0" id="0d">
-        
         
           
           
           
           
           <div class="carousel__controls">
-              <label class="carousel__control carousel__control--backward" for="0d"></label>
+              <label class="carousel__control carousel__control--backward" for="0c"></label>
               <label class="carousel__control carousel__control--forward" for="0b"></label>
           </div>
         
@@ -160,15 +158,6 @@
           
           <div class="carousel__controls">
               <label class="carousel__control carousel__control--backward" for="0b"></label>
-              <label class="carousel__control carousel__control--forward" for="0d"></label>
-          </div>
-        
-          
-          
-          
-          
-          <div class="carousel__controls">
-              <label class="carousel__control carousel__control--backward" for="0c"></label>
               <label class="carousel__control carousel__control--forward" for="0a"></label>
           </div>
         
@@ -176,8 +165,6 @@
           <ul>
             
             <li class="carousel__slide" style="background-image: url('assets/img/image_slider/graspa.jpg');">
-            
-            <li class="carousel__slide" style="background-image: url('assets/img/image_slider/acsprfdni.jpg');">
             
             <li class="carousel__slide" style="background-image: url('assets/img/image_slider/2025_CBE_symposium.jpg');">
             
@@ -192,8 +179,6 @@
               <label class="carousel__indicator" for="0b"></label>
             
               <label class="carousel__indicator" for="0c"></label>
-            
-              <label class="carousel__indicator" for="0d"></label>
             
         </div>
     </div>
@@ -283,29 +268,6 @@
   opacity: 1;
 }
 
-.carousel__activator:nth-of-type(4):checked ~ .carousel__track {
-  -webkit-transform: translateX(-300%);
-          transform: translateX(-300%);
-}
-.carousel__activator:nth-of-type(4):checked ~ .carousel__slide:nth-of-type(4) {
-  transition: opacity 0.5s, -webkit-transform 0.5s;
-  transition: opacity 0.5s, transform 0.5s;
-  transition: opacity 0.5s, transform 0.5s, -webkit-transform 0.5s;
-  top: 0;
-  left: 0;
-  right: 0;
-  opacity: 1;
-  -webkit-transform: scale(1);
-          transform: scale(1);
-}
-.carousel__activator:nth-of-type(4):checked ~ .carousel__controls:nth-of-type(4) {
-  display: block;
-  opacity: 1;
-}
-.carousel__activator:nth-of-type(4):checked ~ .carousel__indicators .carousel__indicator:nth-of-type(4) {
-  opacity: 1;
-}
-
 
 .carousel__control {
   height: 30px;
@@ -390,11 +352,6 @@
           transform: translateX(200%);
 }
 
-.carousel__track .carousel__slide:nth-of-type(4) {
-  -webkit-transform: translateX(300%);
-          transform: translateX(300%);
-}
-
 
 .carousel--scale .carousel__slide {
   -webkit-transform: scale(0);
@@ -429,12 +386,6 @@
 
 .carousel__slide:nth-of-type(3),
 .carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(3) {
-  background-size: cover;
-  background-position: center;
-}
-
-.carousel__slide:nth-of-type(4),
-.carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(4) {
   background-size: cover;
   background-position: center;
 }
@@ -496,6 +447,16 @@
 </ul>
 
 <p>We are also an affiliate member of the <a href="https://acceleration.utoronto.ca/members/affiliate-members" rel="external nofollow noopener" target="_blank">Acceleration Consortium</a>, an initiative to accelerate the discovery of advanced materials and molecules with the power of AI, robotics, and advanced computing.<br><br><br></p>
+
+<p><strong>Our sponsors:</strong></p>
+
+<div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 20px;">
+  <img src="/assets/img/sponsors/nsf_career.png" alt="NSF CAREER" style="max-height: 100px; max-width: 30%;">
+  <img src="/assets/img/sponsors/acs_prf.png" alt="ACS PRF DNI" style="max-height: 100px; max-width: 30%;">
+  <img src="/assets/img/sponsors/ub.png" alt="UB" style="max-height: 100px; max-width: 30%;">
+  <img src="/assets/img/sponsors/ub_seas.png" alt="UB SEAS" style="max-height: 100px; max-width: 30%;">
+</div>
+
 
           </div>
 
@@ -609,7 +570,7 @@
     <footer class="fixed-bottom">
       <div class="container mt-0">
         © Copyright 2026 DP Lab  @ UB. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>.
-Last updated: March 20, 2026.
+Last updated: April 09, 2026.
       </div>
     </footer>
 
