@@ -1,0 +1,18 @@
+<div class="col-md-4 mb-4">
+  {%- if project.redirect -%}
+  <a href="{{ project.redirect }}" style="text-decoration: none; color: inherit;">
+  {%- else -%}
+  <a href="{{ project.url | relative_url }}" style="text-decoration: none; color: inherit;">
+  {%- endif -%}
+    <div class="card hoverable text-center h-100">
+      {%- if project.img -%}
+      <div class="card-img-top" style="overflow: hidden;">
+        {% include figure.html path=project.img alt="project thumbnail" class="img-fluid" %}
+      </div>
+      {%- endif -%}
+      <div class="card-body">
+        <h5 class="card-title" style="margin-bottom: 0;">{{ project.title }}</h5>
+      </div>
+    </div>
+  </a>
+</div>
