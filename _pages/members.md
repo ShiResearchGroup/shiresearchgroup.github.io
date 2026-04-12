@@ -14,7 +14,7 @@ horizontal: true
 {%- if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized members -->
   {%- for category in page.display_categories %}
-  <h2 class="category">{{ category }}</h2>
+  <h2 class="category" style="margin-top: 1rem; margin-bottom: 0.5rem;">{{ category }}</h2>
   {%- assign categorized_projects = site.projects | where: "category", category -%}
   {%- assign sorted_projects = categorized_projects | sort: "importance" %}
   <!-- Generate cards for each member, 3 per row -->

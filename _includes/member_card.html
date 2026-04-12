@@ -1,4 +1,4 @@
-<div class="col-md-4 mb-4">
+<div class="col-md-4 mb-2">
   {%- if project.redirect -%}
   <a href="{{ project.redirect }}" style="text-decoration: none; color: inherit;">
   {%- else -%}
@@ -10,8 +10,8 @@
         {% include figure.html path=project.img alt="project thumbnail" class="img-fluid" %}
       </div>
       {%- endif -%}
-      <div class="card-body">
-        <h5 class="card-title" style="margin-bottom: 0;">{{ project.title }}</h5>
+      <div class="card-body" style="padding: 0.4rem 0.5rem;">
+        <h5 class="card-title" style="margin-bottom: 0; font-size: 1rem;">{{ project.title }}</h5>
       </div>
     </div>
   </a>
