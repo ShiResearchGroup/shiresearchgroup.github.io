@@ -38,6 +38,7 @@ We are also an affiliate member of the [Acceleration Consortium](https://acceler
   <img src="/assets/img/sponsors/acs_prf.png" alt="ACS PRF DNI" style="max-height: 100px; max-width: 30%;">
   <img src="/assets/img/sponsors/ub.png" alt="UB" style="max-height: 100px; max-width: 30%;">
   <img src="/assets/img/sponsors/ub_seas.png" alt="UB SEAS" style="max-height: 100px; max-width: 30%;">
+  <img src="/assets/img/sponsors/suny.png" alt="SUNY" style="max-height: 100px; max-width: 30%;">
 </div>
 <br><br>
 
