@@ -20,6 +20,18 @@ See [Google Scholar](https://scholar.google.com/citations?user=UCZC5w8AAAAJ&hl=e
     </div>
 </div>
 <!-- _pages/publications.md -->
+<div class="publication-search mb-4">
+  <label for="publication-search-input" class="sr-only">Search publications</label>
+  <input
+    type="search"
+    id="publication-search-input"
+    class="form-control"
+    placeholder="Search publications by title, author, journal, keyword..."
+    aria-describedby="publication-search-count"
+  >
+  <small id="publication-search-count" class="form-text text-muted"></small>
+</div>
+
 <div class="publications">
 
 {%- for y in page.years %}
@@ -28,3 +40,83 @@ See [Google Scholar](https://scholar.google.com/citations?user=UCZC5w8AAAAJ&hl=e
 {% endfor %}
 
 </div>
+
+<script>
+  (function () {
+    function normalizeText(text) {
+      var normalized = text.toLowerCase();
+      normalized = normalized.normalize ? normalized.normalize("NFD") : normalized;
+
+      return normalized
+        .replace(/[\u0300-\u036f]/g, "");
+    }
+
+    function pluralize(count) {
+      return count === 1 ? "publication" : "publications";
+    }
+
+    var searchInput = document.getElementById("publication-search-input");
+    var countElement = document.getElementById("publication-search-count");
+    var publications = document.querySelector(".publications");
+
+    if (!searchInput || !countElement || !publications) {
+      return;
+    }
+
+    var entries = Array.prototype.slice.call(publications.querySelectorAll("ol.bibliography > li"));
+
+    entries.forEach(function (entry) {
+      entry.dataset.searchText = normalizeText([
+        entry.textContent,
+        entry.innerHTML.replace(/<[^>]*>/g, " "),
+        entry.querySelector("[id]") ? entry.querySelector("[id]").id : ""
+      ].join(" "));
+    });
+
+    function filterPublications() {
+      var terms = normalizeText(searchInput.value).split(/\s+/).filter(Boolean);
+      var visibleCount = 0;
+
+      entries.forEach(function (entry) {
+        var isMatch = terms.every(function (term) {
+          return entry.dataset.searchText.indexOf(term) !== -1;
+        });
+
+        entry.style.display = isMatch ? "" : "none";
+
+        if (isMatch) {
+          visibleCount += 1;
+        }
+      });
+
+      Array.prototype.slice.call(publications.querySelectorAll("h2.year")).forEach(function (yearHeading) {
+        var bibliography = yearHeading.nextElementSibling;
+        var yearEntries = bibliography
+          ? Array.prototype.slice.call(bibliography.children).filter(function (child) {
+              return child.tagName && child.tagName.toLowerCase() === "li";
+            })
+          : [];
+        var hasVisibleEntries = yearEntries
+          .some(function (entry) {
+            return entry.style.display !== "none";
+          });
+
+        yearHeading.style.display = hasVisibleEntries ? "" : "none";
+        if (bibliography) {
+          bibliography.style.display = hasVisibleEntries ? "" : "none";
+        }
+      });
+
+      if (terms.length === 0) {
+        countElement.textContent = "";
+      } else if (visibleCount === 0) {
+        countElement.textContent = "No matching publications found.";
+      } else {
+        countElement.textContent = "Showing " + visibleCount + " matching " + pluralize(visibleCount) + ".";
+      }
+    }
+
+    searchInput.addEventListener("input", filterPublications);
+    filterPublications();
+  })();
+</script>

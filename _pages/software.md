@@ -10,10 +10,10 @@ software_packages:
     logo: assets/img/mofography_logo.png
     tagline: Structural analysis and visualization for nanoporous materials
     description: Mofography is a powerful Python package for the structural analysis and visualization of nanoporous materials like MOFs, zeolites, and activated carbons.
-    demo_url: https://arung-northwestern-mofography-web-demo.hf.space/
+    app_url: https://arung-northwestern-mofography-web-demo.hf.space/
     repo_url:
     repo_status: GitHub repo coming soon
-    status: Web demo available
+    status: Web app available
     tags:
       - Python
       - MOFs
@@ -28,86 +28,6 @@ software_packages:
     --software-muted: var(--global-text-color-light);
     --software-surface: var(--global-card-bg-color);
     --software-shadow: 0 18px 42px rgba(0, 0, 0, 0.08);
-  }
-
-  .software-hero {
-    position: relative;
-    overflow: hidden;
-    border: 1px solid var(--global-divider-color);
-    border-radius: 8px;
-    padding: 2rem;
-    margin-bottom: 1.5rem;
-    background:
-      radial-gradient(circle at top right, rgba(0, 91, 187, 0.15), transparent 28rem),
-      linear-gradient(135deg, var(--global-card-bg-color), var(--global-bg-color));
-  }
-
-  .software-eyebrow {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.45rem;
-    margin-bottom: 0.9rem;
-    color: var(--global-theme-color);
-    font-size: 0.78rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0;
-  }
-
-  .software-hero h2 {
-    max-width: 720px;
-    margin-bottom: 0.75rem;
-    font-size: clamp(1.85rem, 4vw, 3rem);
-    line-height: 1.08;
-  }
-
-  .software-hero p {
-    max-width: 760px;
-    margin-bottom: 0;
-    color: var(--software-muted);
-    font-size: 1.05rem;
-  }
-
-  .software-toolbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 1rem;
-    margin: 1.5rem 0;
-    padding: 0.75rem;
-    border: 1px solid var(--global-divider-color);
-    border-radius: 8px;
-    background: var(--global-card-bg-color);
-  }
-
-  .software-search {
-    display: flex;
-    align-items: center;
-    flex: 1 1 340px;
-    gap: 0.65rem;
-    min-width: 0;
-    padding: 0.65rem 0.85rem;
-    border: 1px solid var(--global-divider-color);
-    border-radius: 8px;
-    background: var(--global-bg-color);
-  }
-
-  .software-search i {
-    color: var(--software-muted);
-  }
-
-  .software-search input {
-    width: 100%;
-    border: 0;
-    outline: 0;
-    color: var(--global-text-color);
-    background: transparent;
-  }
-
-  .software-count {
-    white-space: nowrap;
-    color: var(--software-muted);
-    font-size: 0.9rem;
   }
 
   .software-grid {
@@ -292,50 +212,83 @@ software_packages:
     font-weight: 700;
   }
 
-  .software-empty {
-    display: none;
-    padding: 1.25rem;
-    border: 1px dashed var(--global-divider-color);
-    border-radius: 8px;
+  .software-repo-section {
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--global-divider-color);
+  }
+
+  .software-section-heading {
+    margin-bottom: 0.45rem;
+    font-size: 1.45rem;
+  }
+
+  .software-section-note {
+    max-width: 720px;
+    margin-bottom: 1rem;
     color: var(--software-muted);
-    text-align: center;
+    line-height: 1.6;
+  }
+
+  .software-repo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1rem;
+  }
+
+  .software-repo-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1.1rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 8px;
+    background: var(--software-surface);
+    text-decoration: none;
+    transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
+  }
+
+  .software-repo-card:hover,
+  .software-repo-card:focus {
+    transform: translateY(-3px);
+    border-color: var(--global-theme-color);
+    box-shadow: var(--software-shadow);
+    text-decoration: none;
+  }
+
+  .software-repo-icon {
+    display: grid;
+    flex: 0 0 48px;
+    width: 48px;
+    height: 48px;
+    place-items: center;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 8px;
+    color: var(--global-theme-color);
+    background: var(--global-bg-color);
+    font-size: 1.35rem;
+  }
+
+  .software-repo-card h3 {
+    margin: 0 0 0.25rem;
+    font-size: 1.1rem;
+  }
+
+  .software-repo-card p {
+    margin: 0;
+    color: var(--software-muted);
+    line-height: 1.5;
   }
 
   @media (max-width: 576px) {
-    .software-hero {
-      padding: 1.35rem;
-    }
-
-    .software-toolbar,
     .software-card-header {
       align-items: stretch;
       flex-direction: column;
-    }
-
-    .software-count {
-      white-space: normal;
     }
   }
 </style>
 
 <div class="software-page">
-  <section class="software-hero">
-    <div class="software-eyebrow"><i class="fas fa-cubes" aria-hidden="true"></i> Group software</div>
-    <h2>Tools for computational nanoporous materials research</h2>
-    <p>
-      We develop reusable software for structure analysis, visualization, and data-driven discovery.
-      Explore group-built packages for modeling, characterizing, and interpreting complex porous systems.
-    </p>
-  </section>
-
-  <div class="software-toolbar" aria-label="Software catalog controls">
-    <label class="software-search">
-      <i class="fas fa-search" aria-hidden="true"></i>
-      <input id="software-search" type="search" placeholder="Search software by name, material, or capability" aria-label="Search software">
-    </label>
-    <div class="software-count"><span id="software-visible-count">{{ page.software_packages | size }}</span> <span id="software-package-label">package{% if page.software_packages.size != 1 %}s{% endif %}</span></div>
-  </div>
-
   <div class="software-grid" id="software-grid">
     {% for package in page.software_packages %}
       {% assign tags_text = package.tags | join: ' ' %}
@@ -371,9 +324,9 @@ software_packages:
           {% endif %}
 
           <div class="software-actions">
-            {% if package.demo_url %}
-              <a class="software-button" href="{{ package.demo_url }}" target="_blank" rel="noopener noreferrer">
-                <i class="fas fa-external-link-alt" aria-hidden="true"></i> Web demo
+            {% if package.app_url %}
+              <a class="software-button" href="{{ package.app_url }}" target="_blank" rel="noopener noreferrer">
+                <i class="fas fa-external-link-alt" aria-hidden="true"></i> Web app
               </a>
             {% endif %}
 
@@ -392,21 +345,36 @@ software_packages:
     {% endfor %}
   </div>
 
-  <div class="software-empty" id="software-empty">No software packages match this search.</div>
+  <section class="software-repo-section" aria-labelledby="more-software-heading">
+    <h2 class="software-section-heading" id="more-software-heading">More Software</h2>
+    <p class="software-section-note">
+      This page highlights selected software from the group. Additional scripts, packages, and project repositories
+      are available through these GitHub profiles.
+    </p>
+
+    <div class="software-repo-grid">
+      <a class="software-repo-card" href="https://github.com/KaihangShi" target="_blank" rel="noopener noreferrer">
+        <span class="software-repo-icon"><i class="fab fa-github" aria-hidden="true"></i></span>
+        <div>
+          <h3>Kaihang Shi GitHub</h3>
+          <p>Personal repositories for research software, examples, and related computational tools.</p>
+        </div>
+      </a>
+
+      <a class="software-repo-card" href="https://github.com/Shi-Research-Group" target="_blank" rel="noopener noreferrer">
+        <span class="software-repo-icon"><i class="fab fa-github" aria-hidden="true"></i></span>
+        <div>
+          <h3>Shi Research Group GitHub</h3>
+          <p>Group repositories for shared software, collaborative projects, and research code.</p>
+        </div>
+      </a>
+    </div>
+  </section>
 </div>
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    var input = document.getElementById("software-search");
-    var cards = Array.prototype.slice.call(document.querySelectorAll("[data-software-card]"));
-    var count = document.getElementById("software-visible-count");
-    var label = document.getElementById("software-package-label");
-    var empty = document.getElementById("software-empty");
     var logos = Array.prototype.slice.call(document.querySelectorAll("[data-software-logo]"));
-
-    if (!input || !cards.length) {
-      return;
-    }
 
     logos.forEach(function (logo) {
       logo.addEventListener("error", function () {
@@ -415,28 +383,7 @@ software_packages:
         }
       });
     });
-
-    function updateSoftwareList() {
-      var query = input.value.trim().toLowerCase();
-      var visible = 0;
-
-      cards.forEach(function (card) {
-        var matches = !query || card.getAttribute("data-search").indexOf(query) !== -1;
-        card.hidden = !matches;
-        if (matches) {
-          visible += 1;
-        }
-      });
-
-      count.textContent = visible;
-      label.textContent = visible === 1 ? "package" : "packages";
-      empty.style.display = visible ? "none" : "block";
-    }
-
-    input.addEventListener("input", updateSoftwareList);
   });
 </script>
-
-
 
 
