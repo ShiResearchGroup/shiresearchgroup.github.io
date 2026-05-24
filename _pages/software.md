@@ -13,9 +13,12 @@ software_packages:
     app_url: https://arung-northwestern-mofography-web-demo.hf.space/
     repo_url:
     repo_status: GitHub repo coming soon
+    paper_url:
+    paper_status: Paper coming soon
     status: Web app available
     tags:
       - Python
+      - Rust backend
       - MOFs
       - Zeolites
       - Activated carbons
@@ -339,6 +342,16 @@ software_packages:
                 <i class="fab fa-github" aria-hidden="true"></i> {{ package.repo_status }}
               </span>
             {% endif %}
+
+            {% if package.paper_url %}
+              <a class="software-button secondary" href="{{ package.paper_url }}" target="_blank" rel="noopener noreferrer">
+                <i class="fas fa-file-alt" aria-hidden="true"></i> Paper
+              </a>
+            {% elsif package.paper_status %}
+              <span class="software-button-disabled">
+                <i class="fas fa-file-alt" aria-hidden="true"></i> {{ package.paper_status }}
+              </span>
+            {% endif %}
           </div>
         </div>
       </article>
@@ -385,5 +398,4 @@ software_packages:
     });
   });
 </script>
-
 
