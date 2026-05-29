@@ -138,13 +138,15 @@
         
           <input class="carousel__activator" type="radio" name="carousel0" id="0d">
         
+          <input class="carousel__activator" type="radio" name="carousel0" id="0e">
+        
         
           
           
           
           
           <div class="carousel__controls">
-              <label class="carousel__control carousel__control--backward" for="0d"></label>
+              <label class="carousel__control carousel__control--backward" for="0e"></label>
               <label class="carousel__control carousel__control--forward" for="0b"></label>
           </div>
         
@@ -172,11 +174,22 @@
           
           <div class="carousel__controls">
               <label class="carousel__control carousel__control--backward" for="0c"></label>
+              <label class="carousel__control carousel__control--forward" for="0e"></label>
+          </div>
+        
+          
+          
+          
+          
+          <div class="carousel__controls">
+              <label class="carousel__control carousel__control--backward" for="0d"></label>
               <label class="carousel__control carousel__control--forward" for="0a"></label>
           </div>
         
         <div class="carousel__track">
           <ul>
+            
+            <li class="carousel__slide" style="background-image: url('assets/img/image_slider/poronet.jpg');">
             
             <li class="carousel__slide" style="background-image: url('assets/img/image_slider/graspa.jpg');">
             
@@ -197,6 +210,8 @@
               <label class="carousel__indicator" for="0c"></label>
             
               <label class="carousel__indicator" for="0d"></label>
+            
+              <label class="carousel__indicator" for="0e"></label>
             
         </div>
     </div>
@@ -309,6 +324,29 @@
   opacity: 1;
 }
 
+.carousel__activator:nth-of-type(5):checked ~ .carousel__track {
+  -webkit-transform: translateX(-400%);
+          transform: translateX(-400%);
+}
+.carousel__activator:nth-of-type(5):checked ~ .carousel__slide:nth-of-type(5) {
+  transition: opacity 0.5s, -webkit-transform 0.5s;
+  transition: opacity 0.5s, transform 0.5s;
+  transition: opacity 0.5s, transform 0.5s, -webkit-transform 0.5s;
+  top: 0;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+.carousel__activator:nth-of-type(5):checked ~ .carousel__controls:nth-of-type(5) {
+  display: block;
+  opacity: 1;
+}
+.carousel__activator:nth-of-type(5):checked ~ .carousel__indicators .carousel__indicator:nth-of-type(5) {
+  opacity: 1;
+}
+
 
 .carousel__control {
   height: 30px;
@@ -398,6 +436,11 @@
           transform: translateX(300%);
 }
 
+.carousel__track .carousel__slide:nth-of-type(5) {
+  -webkit-transform: translateX(400%);
+          transform: translateX(400%);
+}
+
 
 .carousel--scale .carousel__slide {
   -webkit-transform: scale(0);
@@ -438,6 +481,12 @@
 
 .carousel__slide:nth-of-type(4),
 .carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(4) {
+  background-size: cover;
+  background-position: center;
+}
+
+.carousel__slide:nth-of-type(5),
+.carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(5) {
   background-size: cover;
   background-position: center;
 }
@@ -623,7 +672,7 @@
     <footer class="fixed-bottom">
       <div class="container mt-0">
         © Copyright 2026 DP Lab  @ UB. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>.
-Last updated: May 25, 2026.
+Last updated: May 29, 2026.
       </div>
     </footer>
 
