@@ -4,6 +4,8 @@ title: News
 permalink: /news/
 nav: true
 nav_order: 1
+section_navigation: news
 ---
 
-{% include news.html %}
+{% include section_navigation.html %}
+{% include news.html group_by_year=true show_all=true %}

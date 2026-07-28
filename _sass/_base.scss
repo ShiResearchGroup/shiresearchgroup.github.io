@@ -712,6 +712,23 @@ footer.sticky-bottom {
   }
 }
 
+// Grouped news archive
+
+.news--grouped {
+  h2.year {
+    color: var(--global-divider-color);
+    border-top: 1px solid var(--global-divider-color);
+    padding-top: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+    text-align: right;
+  }
+
+  .table-responsive {
+    overflow-x: visible;
+  }
+}
+
 // Rouge Color Customization
 figure.highlight {
   margin: 0 0 1rem;

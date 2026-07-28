@@ -1,0 +1,54 @@
+{% if page.section_navigation %}
+<aside class="section-navigator" data-section-navigator>
+  <button
+    class="section-navigator__toggle"
+    type="button"
+    aria-expanded="false"
+    aria-controls="section-navigator-links"
+  >
+    <span>Browse</span>
+    <span class="section-navigator__toggle-mark" aria-hidden="true"></span>
+  </button>
+
+  <div class="section-navigator__panel" id="section-navigator-links">
+    <p class="section-navigator__eyebrow">{{ page.title }}</p>
+    <p class="section-navigator__title">
+      {% if page.section_navigation == "members" %}Categories{% else %}By year{% endif %}
+    </p>
+
+    <nav aria-label="{{ page.title }} page sections">
+      <ul class="section-navigator__list">
+        {% case page.section_navigation %}
+          {% when "news" %}
+            {% assign navigation_news = site.news | reverse %}
+            {% assign navigation_years = navigation_news | group_by_exp: "item", "item.date | date: '%Y'" %}
+            {% for year in navigation_years %}
+              <li>
+                <a href="#news-{{ year.name }}" data-section-nav-target="news-{{ year.name }}">
+                  {{ year.name }}
+                </a>
+              </li>
+            {% endfor %}
+          {% when "members" %}
+            {% for category in page.display_categories %}
+              {% assign category_id = category | slugify %}
+              <li>
+                <a href="#members-{{ category_id }}" data-section-nav-target="members-{{ category_id }}">
+                  {{ category }}
+                </a>
+              </li>
+            {% endfor %}
+          {% when "publications" %}
+            {% for year in page.years %}
+              <li>
+                <a href="#publications-{{ year }}" data-section-nav-target="publications-{{ year }}">
+                  {{ year }}
+                </a>
+              </li>
+            {% endfor %}
+        {% endcase %}
+      </ul>
+    </nav>
+  </div>
+</aside>
+{% endif %}

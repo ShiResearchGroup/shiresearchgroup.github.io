@@ -7,14 +7,17 @@ nav: true
 nav_order: 3
 display_categories: [PI, Postdoctoral Scholar, Visiting Scholar, Graduate Students, Undergraduates, Alumni]
 horizontal: true
+section_navigation: members
 ---
+
+{% include section_navigation.html %}
 
 <!-- pages/projects.md -->
 <div class="projects">
 {%- if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
   {%- for category in page.display_categories %}
-  <h2 class="category" style="margin-top: 1rem; margin-bottom: 0.5rem;">{{ category }}</h2>
+  <h2 class="category" id="members-{{ category | slugify }}" style="margin-top: 1rem; margin-bottom: 0.5rem;">{{ category }}</h2>
   {%- assign categorized_projects = site.projects | where: "category", category -%}
   {%- assign sorted_projects = categorized_projects | sort: "importance" %}
   <!-- Generate cards for each project -->

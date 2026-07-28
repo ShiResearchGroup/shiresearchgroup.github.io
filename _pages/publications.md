@@ -6,7 +6,10 @@ description:
 years: [2026,2025,2024,2023,2021,2020,2019,2018,2016,2015]
 nav: true
 nav_order: 4
+section_navigation: publications
 ---
+
+{% include section_navigation.html %}
 
 See [Google Scholar](https://scholar.google.com/citations?user=UCZC5w8AAAAJ&hl=en&authuser=1). * corresponding authors; & equal contribution; ^ the Shi group's member.
 <div class="row">
@@ -35,7 +38,7 @@ See [Google Scholar](https://scholar.google.com/citations?user=UCZC5w8AAAAJ&hl=e
 <div class="publications">
 
 {%- for y in page.years %}
-  <h2 class="year">{{y}}</h2>
+  <h2 class="year" id="publications-{{ y }}">{{y}}</h2>
   {% bibliography -f papers -q @*[year={{y}}]* %}
 {% endfor %}
 
