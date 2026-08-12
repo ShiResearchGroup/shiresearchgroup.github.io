@@ -52,7 +52,10 @@ layout: default
           <!-- News -->
           {% if page.news -%}
             <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">News</a></h2>
-            {%- include news.html %}
+            {%- include news.html limit=5 scrollable=false %}
+            <div class="text-right mt-2">
+              <a class="btn btn-sm btn-outline-primary z-depth-0" href="{{ '/news/' | relative_url }}">View all news</a>
+            </div>
           {%- endif %}
 
           <!-- Latest posts -->

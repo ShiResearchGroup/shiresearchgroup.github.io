@@ -28,12 +28,14 @@
               {% else %}
                 {% if include.show_all %}
                   {% assign news_limit = news_size %}
+                {% elsif include.limit %}
+                  {% assign news_limit = include.limit %}
                 {% elsif site.news.limit %}
                   {% assign news_limit = site.news.limit %}
                 {% else %}
                   {% assign news_limit = news_size %}
                 {% endif %}
-                <div class="table-responsive" {% if site.news.scrollable and news_size > 3 %}style="max-height: 10vw"{% endif %}>
+                <div class="table-responsive"{% unless include.scrollable == false %}{% if site.news.scrollable and news_size > 3 %} style="max-height: 10vw"{% endif %}{% endunless %}>
                   <table class="table table-sm table-borderless">
                     {% for item in news limit: news_limit %}
                       <tr>
