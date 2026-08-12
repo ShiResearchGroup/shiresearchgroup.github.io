@@ -714,6 +714,33 @@ footer.sticky-bottom {
 
 // Grouped news archive
 
+.about-news {
+  .table-responsive,
+  table {
+    margin-bottom: 0;
+  }
+
+  .about-news-footer {
+    margin: 0.75rem 0 1.5rem;
+  }
+
+  .about-news-all {
+    color: var(--global-theme-color);
+    background-color: transparent;
+    border: 1px solid var(--global-theme-color);
+    padding-right: 1rem;
+    padding-left: 1rem;
+    transition: color 0.2s ease, background-color 0.2s ease, border-color 0.2s ease;
+
+    &:hover,
+    &:focus {
+      color: var(--global-bg-color);
+      background-color: var(--global-theme-color);
+      border-color: var(--global-theme-color);
+    }
+  }
+}
+
 .news--grouped {
   h2.year {
     color: var(--global-divider-color);
