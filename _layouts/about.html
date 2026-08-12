@@ -52,6 +52,7 @@ layout: default
           <!-- News -->
           {% if page.news -%}
             <section class="about-news" aria-label="Latest news">
+              <h2 class="about-news-title">News</h2>
               {%- include news.html limit=5 scrollable=false %}
               <div class="about-news-footer text-center">
                 <a class="about-news-all btn btn-sm z-depth-0" href="{{ '/news/' | relative_url }}">View all news</a>

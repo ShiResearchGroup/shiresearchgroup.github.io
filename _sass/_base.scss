@@ -715,6 +715,13 @@ footer.sticky-bottom {
 // Grouped news archive
 
 .about-news {
+  margin-top: 1.5rem;
+
+  .about-news-title {
+    margin-bottom: 0.6rem;
+    font-size: 1.5rem;
+  }
+
   .table-responsive,
   table {
     margin-bottom: 0;
@@ -724,19 +731,29 @@ footer.sticky-bottom {
     margin: 0.75rem 0 1.5rem;
   }
 
-  .about-news-all {
-    color: var(--global-theme-color);
-    background-color: transparent;
+  a.about-news-all.btn {
+    color: var(--global-theme-color) !important;
+    background-color: transparent !important;
+    background-image: linear-gradient(var(--global-theme-color), var(--global-theme-color));
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 100% 0;
     border: 1px solid var(--global-theme-color);
     padding-right: 1rem;
     padding-left: 1rem;
-    transition: color 0.2s ease, background-color 0.2s ease, border-color 0.2s ease;
+    text-decoration: none;
+    transition: color 0.2s ease, background-size 0.2s ease;
 
     &:hover,
     &:focus {
-      color: var(--global-bg-color);
-      background-color: var(--global-theme-color);
-      border-color: var(--global-theme-color);
+      color: var(--global-bg-color) !important;
+      background-size: 100% 100%;
+      text-decoration: none;
+    }
+
+    &:focus-visible {
+      outline: 2px solid var(--global-theme-color);
+      outline-offset: 2px;
     }
   }
 }
