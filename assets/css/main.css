@@ -156,6 +156,11 @@ body.sticky-bottom-footer {
   outline-offset: 2px;
 }
 
+.medium-zoom-overlay,
+.medium-zoom-image--opened {
+  z-index: 30;
+}
+
 @media (max-width: 1159px) {
   .section-navigator {
     top: 4.75rem;
