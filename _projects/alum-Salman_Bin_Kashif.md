@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Salman Bin Kashif
-description: Postdoc (2024-2025) <br>PhD, Chemical Engineering, Clemson University (2024)<br>B.Tech., Chemical Engineering, Aligarh Muslim University
+description: Now at U Minnesota <br> Postdoc (2024-2025)
 img: assets/img/Kashif.jpg
 redirect: 
 importance: 993
