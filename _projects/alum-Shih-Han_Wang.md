@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Shih-Han Wang
-description: Now at Mariana Minerals <br> Postdoc (2026)
+description: <strong>Current Position:</strong> Mariana Minerals <br> Postdoc (2026)
 img: assets/img/shih-han.jpg
 redirect: 
 importance: 992
