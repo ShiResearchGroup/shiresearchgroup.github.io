@@ -11,8 +11,8 @@ software_packages:
     tagline: Structural analysis and visualization for nanoporous materials
     description: Mofography is a powerful Python package for the structural analysis and visualization of nanoporous materials like MOFs, zeolites, and activated carbons.
     app_url: https://arung-northwestern-mofography-web-demo.hf.space/
-    repo_url:
-    repo_status: GitHub repo coming soon
+    repo_url: https://github.com/mofography/mofography
+    repo_status: GitHub repo
     paper_url:
     paper_status: Paper coming soon
     status: Web app available
