@@ -856,7 +856,7 @@ footer.sticky-bottom {
   overflow-wrap: anywhere;
 }
 .news-item__body .news-title {
-  font-weight: 500;
+  font-weight: inherit;
 }
 .news-item__media {
   grid-area: media;
