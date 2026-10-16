@@ -15,6 +15,7 @@
   --global-distill-app-color: #{$grey-color};
   --global-divider-color: #{$ub-color};
   --global-card-bg-color: #{$white-color};
+  --global-news-divider-color: #{rgba($black-color, 0.08)};
 
   .fa-sun {
     display : none;
@@ -46,6 +47,7 @@ html[data-theme='dark'] {
   --global-distill-app-color: #{$grey-color-light};
   --global-divider-color: #{$ub-color};
   --global-card-bg-color: #{$grey-900};
+  --global-news-divider-color: #{rgba($white-color, 0.12)};
 
   .fa-sun {
     padding-left: 10px;

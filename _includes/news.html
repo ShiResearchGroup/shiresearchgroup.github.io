@@ -1,58 +1,49 @@
+{%- comment -%}
+  News list shared by the home page and /news/.
 
-          <div class="news{% if include.group_by_year %} news--grouped{% endif %}">
-            {% if site.news != blank -%}
-              {%- assign news_size = site.news | size -%}
-              {%- assign news = site.news | reverse -%}
+  Options:
+    group_by_year  - split items under year headings (used on /news/)
+    show_all       - ignore every limit
+    limit          - max number of items when show_all is not set
+    scrollable     - pass false to disable the optional scroll box
 
-              {% if include.group_by_year %}
-                {% assign news_years = news | group_by_exp: "item", "item.date | date: '%Y'" %}
-                {% for year in news_years %}
-                  <h2 class="year" id="news-{{ year.name }}">{{ year.name }}</h2>
-                  <div class="table-responsive">
-                    <table class="table table-sm table-borderless">
-                      {% for item in year.items %}
-                        <tr>
-                          <th scope="row">{{ item.date | date: "%b %-d, %Y" }}</th>
-                          <td>
-                            {% if item.inline -%}
-                              {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
-                            {%- else -%}
-                              <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
-                            {%- endif %}
-                          </td>
-                        </tr>
-                      {% endfor %}
-                    </table>
-                  </div>
-                {% endfor %}
-              {% else %}
-                {% if include.show_all %}
-                  {% assign news_limit = news_size %}
-                {% elsif include.limit %}
-                  {% assign news_limit = include.limit %}
-                {% elsif site.news.limit %}
-                  {% assign news_limit = site.news.limit %}
-                {% else %}
-                  {% assign news_limit = news_size %}
-                {% endif %}
-                <div class="table-responsive"{% unless include.scrollable == false %}{% if site.news.scrollable and news_size > 3 %} style="max-height: 10vw"{% endif %}{% endunless %}>
-                  <table class="table table-sm table-borderless">
-                    {% for item in news limit: news_limit %}
-                      <tr>
-                        <th scope="row">{{ item.date | date: "%b %-d, %Y" }}</th>
-                        <td>
-                          {% if item.inline -%}
-                            {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
-                          {%- else -%}
-                            <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
-                          {%- endif %}
-                        </td>
-                      </tr>
-                    {%- endfor %}
-                  </table>
-                </div>
-              {% endif %}
-            {%- else -%}
-              <p>No news so far...</p>
-            {%- endif %}
-          </div>
+  A news item can set `image: assets/img/....jpg` (and optionally `image_alt`)
+  in its front matter to show a thumbnail next to its text.
+{%- endcomment -%}
+<div class="news{% if include.group_by_year %} news--grouped{% endif %}">
+  {% if site.news != blank -%}
+    {%- assign news_size = site.news | size -%}
+    {%- assign news = site.news | reverse -%}
+
+    {% if include.group_by_year %}
+      {% assign news_years = news | group_by_exp: "item", "item.date | date: '%Y'" %}
+      {% for year in news_years %}
+        <h2 class="year" id="news-{{ year.name }}">{{ year.name }}</h2>
+        <ul class="news-list">
+          {% for item in year.items %}
+            {% include news_item.html item=item %}
+          {% endfor %}
+        </ul>
+      {% endfor %}
+    {% else %}
+      {% if include.show_all %}
+        {% assign news_limit = news_size %}
+      {% elsif include.limit %}
+        {% assign news_limit = include.limit %}
+      {% elsif site.news.limit %}
+        {% assign news_limit = site.news.limit %}
+      {% else %}
+        {% assign news_limit = news_size %}
+      {% endif %}
+      <div class="news-list-wrapper"{% unless include.scrollable == false %}{% if site.news.scrollable and news_size > 3 %} style="max-height: 24rem; overflow-y: auto;"{% endif %}{% endunless %}>
+        <ul class="news-list">
+          {% for item in news limit: news_limit %}
+            {% include news_item.html item=item %}
+          {% endfor %}
+        </ul>
+      </div>
+    {% endif %}
+  {%- else -%}
+    <p>No news so far...</p>
+  {%- endif %}
+</div>

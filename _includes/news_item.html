@@ -1,0 +1,24 @@
+{%- comment -%}
+  One row of the news list. Expects `include.item` (a document from site.news).
+  Layout: date | text | optional thumbnail (from the item's `image` front matter).
+{%- endcomment -%}
+{%- assign item = include.item -%}
+{%- assign item_url = item.url | relative_url -%}
+<li class="news-item{% if item.image %} news-item--has-image{% endif %}">
+  <time class="news-item__date" datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: "%b %-d, %Y" }}</time>
+
+  <div class="news-item__body">
+    {% if item.inline -%}
+      {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+    {%- else -%}
+      <a class="news-title" href="{{ item_url }}">{{ item.title }}</a>
+    {%- endif %}
+  </div>
+
+  {% if item.image -%}
+    {%- assign image_alt = item.image_alt | default: item.title | default: "News photo" -%}
+    <a class="news-item__media" href="{{ item_url }}" aria-label="Open the full story">
+      {% include figure.html path=item.image alt=image_alt class="news-item__img" %}
+    </a>
+  {%- endif %}
+</li>
