@@ -770,6 +770,15 @@ footer.sticky-bottom {
 
 // News list: date | text | optional thumbnail
 
+// medium-zoom clones the thumbnail onto <body>; show the full, uncropped image there.
+.news-item__img.medium-zoom-image--opened {
+  object-fit: contain;
+  border: none;
+  border-radius: 0;
+  background-color: transparent;
+  box-shadow: none;
+}
+
 .news-list {
   list-style: none;
   margin: 0;
@@ -816,22 +825,14 @@ footer.sticky-bottom {
   &__media {
     grid-area: media;
     display: block;
-    text-decoration: none;
 
     figure {
       margin: 0;
     }
 
-    &:hover .news-item__img,
-    &:focus-visible .news-item__img {
+    &:hover .news-item__img {
       transform: translateY(-2px);
       box-shadow: 0 0.35rem 0.9rem rgba(0, 0, 0, 0.12);
-    }
-
-    &:focus-visible {
-      outline: 2px solid var(--global-theme-color);
-      outline-offset: 2px;
-      border-radius: 0.4rem;
     }
   }
 
@@ -844,6 +845,7 @@ footer.sticky-bottom {
     border: 1px solid var(--global-news-divider-color);
     background-color: var(--global-card-bg-color);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: zoom-in;
   }
 
   @media (max-width: 575.98px) {

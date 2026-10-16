@@ -1,6 +1,7 @@
 {%- comment -%}
   One row of the news list. Expects `include.item` (a document from site.news).
   Layout: date | text | optional thumbnail (from the item's `image` front matter).
+  Clicking the thumbnail zooms it in place (medium-zoom), like images on the publications page.
 {%- endcomment -%}
 {%- assign item = include.item -%}
 {%- assign item_url = item.url | relative_url -%}
@@ -17,8 +18,8 @@
 
   {% if item.image -%}
     {%- assign image_alt = item.image_alt | default: item.title | default: "News photo" -%}
-    <a class="news-item__media" href="{{ item_url }}" aria-label="Open the full story">
-      {% include figure.html path=item.image alt=image_alt class="news-item__img" %}
-    </a>
+    <div class="news-item__media">
+      {% include figure.html path=item.image alt=image_alt class="news-item__img" zoomable=true %}
+    </div>
   {%- endif %}
 </li>
