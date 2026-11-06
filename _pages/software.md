@@ -13,8 +13,8 @@ software_packages:
     app_url: https://arung-northwestern-mofography-web-demo.hf.space/
     repo_url: https://github.com/mofography/mofography
     repo_status: GitHub repo
-    paper_url:
-    paper_status: Paper coming soon
+    paper_url: https://chemrxiv.org/doi/full/10.26434/chemrxiv.15011793/v1 
+    paper_status: Paper 
     status: Web app available
     tags:
       - Python
