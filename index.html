@@ -582,7 +582,7 @@
 </li>
 
           
-            <li class="news-item">
+            <li class="news-item news-item--has-image">
   <time class="news-item__date" datetime="2026-11-06T15:57:00+00:00">Nov 6, 2026</time>
 
   <div class="news-item__body">
@@ -590,7 +590,24 @@
 
   </div>
 
-  
+  <div class="news-item__media">
+      <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/mofography_logo-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/mofography_logo-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/mofography_logo-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/mofography_logo.png" class="news-item__img" width="auto" height="auto" alt="Mofography logo" data-zoomable onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+
+    </div>
 </li>
 
           
